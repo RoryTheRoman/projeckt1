@@ -13,12 +13,12 @@ $(document).ready(function(){
 		var randomFormat = "YYYY/MM/DD";
 	    var convertedDate = moment(userDate, randomFormat);
 	    console.log("conv" + convertedDate);
-    console.log(moment(convertedDate).toNow());
-    console.log(moment(convertedDate).diff(moment(), "years"));
-	    
+    // console.log(moment(convertedDate).toNow());
+    	var compareDate = moment(convertedDate).diff(moment(), "years");
+ 		var diffDate = (compareDate + 100);
+ 		console.log("compare" + diffDate);
 
 	});
-
 
 
 
