@@ -15,8 +15,14 @@ $(document).ready(function(){
 	    console.log("conv" + convertedDate);
     // console.log(moment(convertedDate).toNow());
     	var compareDate = moment(convertedDate).diff(moment(), "years");
- 		var diffDate = (compareDate + 100);
+ 		var diffDate = (compareDate * -1);
  		console.log("compare" + diffDate);
+ 		if (diffDate >= 21) {
+ 			// $("#mainpageIDHere").show();
+ 			$("#ageModal").modal("hide");
+ 		}else {
+ 			window.location.replace("http://berghoffbeer.com/sodas/");
+ 		}
 
 	});
 
