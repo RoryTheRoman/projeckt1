@@ -7,6 +7,10 @@ body {
     line-height: 30px;
     text-align: center;
 }
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    
+}
 
 strong { font-weight: 500; }
 
@@ -94,7 +98,8 @@ ul.navbar-nav {
 
 footer { padding: 40px 0 45px 0; background: #f8f8f8; }
 
-.footer-copyright { padding-top: 15px; }
+.footer-copyright { padding-top: 15px; 
+width:100%;}
 .footer-copyright a { color: #888; border-bottom: 1px dotted #888; }
 .footer-copyright a:hover, .footer-copyright a:focus { color: #888; border: 0; }
 
@@ -158,3 +163,6 @@ only screen and (                min-resolution: 2dppx) {
     }
 	
 }
+
+
+
