@@ -61,16 +61,17 @@ ul.navbar-nav {
 	color: #fff;
 	font-weight: 400;
 	text-transform: uppercase;
+	margin-top: -15px;
 }
 
-.navbar-inverse ul.navbar-nav li a { padding-top: 20px; padding-bottom: 20px; color: #fff; border: 0; }
+.navbar-inverse ul.navbar-nav li a { padding-top: 50px; padding-bottom: 20px; color: #fff; border: 0; }
 .navbar-inverse ul.navbar-nav li a:hover { color: #ddd; border: 0; }
 .navbar-inverse ul.navbar-nav li a:focus { color: #ddd; outline: 0; border: 0; }
 
 .navbar-brand {
 	width: 102px;
-	height: 60px;
-	background: url(../img/newlogo.png) left center no-repeat ;
+	height: 81px;
+	background: url(../img/newlogo1.png) left center no-repeat ;
 	text-indent: -99999px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0; }
@@ -88,6 +89,14 @@ ul.navbar-nav {
 .top-content .description a { color: #fff; border-bottom: 1px dotted #fff; }
 .top-content .description a:hover, .top-content .description a:focus { color: #fff; border: 0; }
 
+#contact-row {
+	margin-top:20px;
+}
+
+#faq-container {
+	margin-top:20px;
+}
+
 
 /***** Features *****/
 
@@ -99,7 +108,7 @@ ul.navbar-nav {
 footer { padding: 40px 0 45px 0; background: #f8f8f8; }
 
 .footer-copyright { padding-top: 15px; 
-width:100%;}
+}
 .footer-copyright a { color: #888; border-bottom: 1px dotted #888; }
 .footer-copyright a:hover, .footer-copyright a:focus { color: #888; border: 0; }
 
